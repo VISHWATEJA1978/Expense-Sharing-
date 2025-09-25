@@ -1,4 +1,4 @@
-name: CI
+name: teja_CI
 
 on:
   workflow_dispatch:
@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Clone Repo
+      - name: Clone public Repo
         uses: GuillaumeFalourd/clone-github-repo-action@v2.3
         with:
           depth: 1
